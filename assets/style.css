@@ -1,0 +1,56 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+
+
+body{
+    height: 100vh;
+    background-color: #fafafa;
+}
+
+.mTop{
+    padding-top: 60px;
+}
+
+.rounded-box{
+    border-radius: 15px;
+}
+
+.profile-image{
+    margin-top: -18px;
+    clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+}
+
+.profile-information li{
+    border-left: solid 2px #eee;
+    padding: 0 0 23px 20px;
+}
+.profile-information li p{
+    font-size: 13.5px;
+    color: #7F7F7F;
+}
+.profile-information li span{
+    color: #000;
+}
+ul.profile-information li:before{
+    content: "";
+    border: solid 2px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    font-size: 8px;
+    margin-left: -25px;
+    margin-top: 2px;
+    font-weight: 400;
+    background: #fff;
+    display: block;
+    position: absolute;
+}
+
+.link a{
+    font-weight: bolder;
+    color: black;
+    padding: 0 20px;
+}
+
+.link a:hover{
+    color: orange;
+}
